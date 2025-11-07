@@ -13,7 +13,9 @@ dist/
 *.egg-info/
 
 # Local data and artifacts
+# Keep the main dataset tracked, ignore other CSVs
 data/*.csv
+!data/emails.csv
 data/processed/**
 models/**
 reports/**
