@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Local data and artifacts
+data/*.csv
+data/processed/**
+models/**
+reports/**
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local configuration
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Python coverage
+.coverage
+.pytest_cache/
+
+# Tooling
+.python-version
+.ruff_cache/
+.mypy_cache/
+
+# Jupyter runtime files
+.local/share/jupyter/runtime/
+
