@@ -190,12 +190,7 @@ python src/train_baselines.py --train_csv data/processed/train.csv --report_out 
 ### Phase 3: Train final model
 
 ```bash
-python src/train_final.py \
-  --train_csv data/processed/train.csv \
-  --test_csv data/processed/test.csv \
-  --vocab_json data/processed/vocab.json \
-  --models_dir models \
-  --random_state 42
+python src/train_final.py --train_csv data/processed/train.csv --test_csv data/processed/test.csv --vocab_json data/processed/vocab.json --models_dir models --random_state 42
 ```
 
 ### Run the web app
